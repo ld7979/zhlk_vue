@@ -18,13 +18,13 @@ a{text-decoration: none}
   margin-top:30px;
   margin-right:10px;
 }
-.ind_main{
+/* .ind_main{
   width:1650px;
   height:940px;
-  background-image: url(../bg-img/bg_main.png);
+  background-image: url(../bg-img/bg_main2.png);
   float: left;
   margin-top:30px;
-}
+} */
 .left_list{
   width:240px;
   margin:45px 35px 0 35px;
@@ -42,12 +42,12 @@ a{text-decoration: none}
   color:#fff;
   font-family: '微软雅黑';
 }
-.left_list>li>a:hover{
+/* .left_list>li>a:hover{
   width:160px;
   line-height: 38px;
   display: block;
   background: url(../bg-img/left_button11.png) no-repeat;
-}
+} */
 .left_list>.active{
   background: url(../bg-img/left_button11.png) no-repeat;
 }
@@ -68,7 +68,6 @@ a{text-decoration: none}
   width:160px;
   line-height: 30px;
   font-family: '微软雅黑';
-  /* background: url(../bg-img/left.button02_03.png) no-repeat; */
   margin-bottom:15px;
 }
 .left_list>li>div>p>a:hover{
@@ -77,3 +76,6 @@ a{text-decoration: none}
   display: block;
   background: url(../bg-img/left.button02_03.png) no-repeat;
 }
+.bg{
+  background: url(../bg-img/left.button02_03.png) no-repeat;
+} 
