@@ -36,6 +36,7 @@ export default{
       if(!this.showsub){
         this.current=index
         this.showsub=true
+        this.curr=""
       }else{
         this.current=""
         this.showsub=false
