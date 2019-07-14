@@ -32,7 +32,7 @@ export default{
           {tit:"小麦收购",href:"#/"},
           {tit:"玉米收获",href:"#/"},
           {tit:"稻谷收获",href:"#/"},
-          {tit:"时实情况",href:"#/"}
+          {tit:"时实情况",href:"#/ssqk"}
         ]},
         {title:"销售情况",subtitle:[
           {tit:"总体情况",href:"#/"},

@@ -64,14 +64,14 @@
 /* 右边 */
 .prog_right{
   float: right;
-  width:285px;
+  width:288px;
   height: 750px;
   border: 1px solid #11779d;
   margin:95px 130px 0 0 ;
   background: rgba(17,119,157,0.2)
 }
 .count{
-  width:285px;
+  width:288px;
   height:60px;
   line-height: 60px;
   text-align: center;
@@ -81,4 +81,26 @@
   color:#fff;
   font-size:20px;
   font-weight: bold;
+}
+.right_list{
+  width:288px;
+  margin-top:-30px;
+}
+.right_list li span{
+  width:288px;
+  height:40px;
+  line-height: 40px;
+  display: block;
+  background: rgba(17,119,157,0.8);
+  color:#fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left:30px;
+  box-sizing: border-box;
+}
+.right_list li p{
+  line-height: 40px;
+  color:#fff;
+  padding-left:30px;
+  border-bottom: 1px solid rgba(17,119,157,0.8);
 }

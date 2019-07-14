@@ -32,11 +32,23 @@
       <div class="count">
         <p>数量分布</p>
       </div>
-      <div style="width:300px;height:300px;margin:-60px 0 0 -5px" ref="chart3"></div>
-      <ul class="">
-        <li>123</li>
-        <li>123</li>
-        <li>123</li>
+      <div style="width:300px;height:300px;margin:-30px 0 0 -5px" ref="chart3"></div>
+      <ul class="right_list">
+        <li>
+          <span>大荔：111万吨</span> 
+          <p>1号仓：111万吨</p>
+          <p>2号仓：111万吨</p>
+        </li>
+        <li>
+          <span>咸阳：111万吨</span>
+          <p>1号仓：111万吨</p>
+          <p>2号仓：111万吨</p>
+        </li>
+        <li>
+          <span>西安：111万吨</span>
+          <p>1号仓：111万吨</p>
+          <p>2号仓：111万吨</p>
+        </li>
       </ul>
     </div>
   </div>
