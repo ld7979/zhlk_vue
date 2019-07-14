@@ -9,13 +9,50 @@
 .wheat_left{
   float: left;
   width:380px;
-  height:500px;
-  border:1px solid #fff;
   margin:170px 0 0 130px;
 }
 .price{
+  padding:35px 0 0 15px;
+  box-sizing: border-box;
   width:362px;
-  border-image: url(../bg-img/introduction_price.png)
+  height:192px;
+  background: url(../bg-img/introduction_price.png) no-repeat;
+}
+.cny{
+  float: left;
+}
+.cny p{
+  font-size: 99px;
+  color:#00b7ff;
+}
+.wheat_price{
+  float: left;
+  margin:20px 0 0 10px;
+  
+}
+.wheat_price p{
+  font-size:24px;
+  color:#fff;
+  line-height: 45px;
+}
+.wheat_price p span{
+  font-size:48px;
+  color:#00d2ff;
+  font-family: '经典综艺体简';
+  margin-right: 5px;
+}
+.cstmrtype{
+  margin-top:140px;
+}
+.cstmrtype p{
+  width:300px;
+  height:45px;
+  line-height: 45px;
+  font-size: 24px;
+  color:#00e4ff;
+  font-weight: bold;
+  text-align: center;
+  background-image: url(../bg-img/bg_charts.png)
 }
 /* 中 */
 .wheat_content{
@@ -29,4 +66,33 @@
 /* 右 */
 .wheat_right{
   float: left;
+  margin:135px 0 0 130px;
+}
+.Price_dispersion p,.Price_action p{
+  width:300px;
+  height:45px;
+  line-height: 45px;
+  font-size: 24px;
+  color:#00e4ff;
+  font-weight: bold;
+  text-align: center;
+  background-image: url(../bg-img/bg_charts.png)
+}
+.Price_action{
+  margin-top:-40px;
+}
+.legend{
+  margin-left:20px;
+}
+.legend span{
+  color:#fff;
+  font-size: 15px;
+}
+.legend span:nth-child(2n-1){
+  width:10px;
+  height:10px;
+  display: inline-block;
+  background:#dfd758;
+  border-radius: 50%;
+  margin: 0 10px;
 }
