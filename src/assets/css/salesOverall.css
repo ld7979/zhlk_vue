@@ -1,0 +1,67 @@
+.sall_main{
+  width:1650px;
+  height:940px;
+  background-image: url(../bg-img/bg_main2.png);
+  float: left;
+  margin-top:30px;
+}
+.sall_left{
+  width:340px;
+  margin:100px 0 0 110px;
+  float: left;
+}
+.left_sum{
+  width:340px;
+  height:200px;
+  background: url(../bg-img/introduction_sum.png) no-repeat;
+  text-align: center;
+}
+.sum_list{
+  padding-top:15px;
+}
+.sum_list li{
+  margin-bottom: 10px;
+}
+.sum_list li img{
+  vertical-align: top;
+  margin-right: 10px;
+}
+.sum_list li span{
+  color:#fff;
+  font-size: 16px;
+}
+.sum_list li span b{
+  color:#00fffc;
+  font-size:20px;
+}
+/* 数量 */
+.left_count{
+  margin-top:40px;
+}
+.left_count p,.left_price p,.right_count p{
+  width:340px;
+  height:45px;
+  line-height: 45px;
+  font-size: 24px;
+  color:#00e4ff;
+  font-weight: bold;
+  text-align: center;
+  background-image: url(../bg-img/bg_charts.png)
+}
+/* 金额 */
+.left_price{
+  margin-top:20px;
+}
+/* 地图 */
+.sall_content{
+  width:440px;
+  height:825px;
+  background-image: url(../bg-img/map.png);
+  float: left;
+  margin:60px 0 0 80px;
+}
+/* 右边 */
+.sall_right{
+  margin:95px 0 0 150px;
+  float: left;
+}

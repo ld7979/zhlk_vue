@@ -35,7 +35,7 @@ export default{
           {tit:"时实情况",href:"#/ssqk"}
         ]},
         {title:"销售情况",subtitle:[
-          {tit:"总体情况",href:"#/"},
+          {tit:"总体情况",href:"#/sall"},
           {tit:"小麦销售",href:"#/"}
         ]},
       ],
