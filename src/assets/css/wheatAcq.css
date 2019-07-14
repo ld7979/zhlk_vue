@@ -1,0 +1,32 @@
+.wheat_main{
+  width:1650px;
+  height:940px;
+  background-image: url(../bg-img/bg_main2.png);
+  float: left;
+  margin-top:30px;
+}
+/* 左 */
+.wheat_left{
+  float: left;
+  width:380px;
+  height:500px;
+  border:1px solid #fff;
+  margin:170px 0 0 130px;
+}
+.price{
+  width:362px;
+  border-image: url(../bg-img/introduction_price.png)
+}
+/* 中 */
+.wheat_content{
+  width:440px;
+  height:825px;
+  background-image: url(../bg-img/map.png);
+  float: left;
+  margin:60px 0 0 80px;
+}
+
+/* 右 */
+.wheat_right{
+  float: left;
+}

@@ -29,7 +29,7 @@ export default{
           {tit:"省级储备粮",href:"#/"}
         ]},
         {title:"收购情况",subtitle:[
-          {tit:"小麦收购",href:"#/"},
+          {tit:"小麦收购",href:"#/wheat"},
           {tit:"玉米收获",href:"#/"},
           {tit:"稻谷收获",href:"#/"},
           {tit:"时实情况",href:"#/ssqk"}
