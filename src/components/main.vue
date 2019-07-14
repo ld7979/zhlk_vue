@@ -58,7 +58,6 @@
           <div style="width:350px;height:350px;margin-top:-20px" ref="chart4"></div>
         </div>
       </div>
-
     </div>
   </div>
 </template>
@@ -80,6 +79,7 @@ export default{
         series: [{
           name:'总仓容',
           type:'pie',
+          hoverAnimation: false,
           radius: ['90%', '100%'],
           label: {
               show: false
@@ -107,6 +107,7 @@ export default{
         series: [{
           name:'总仓容',
           type:'pie',
+          hoverAnimation: false,
           radius: ['90%', '100%'],
           label: {
               show: false

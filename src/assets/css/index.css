@@ -40,7 +40,6 @@ a{text-decoration: none}
   font-size:20px;
   font-weight: bold;
   color:#fff;
-  font-family: '微软雅黑';
 }
 /* .left_list>li>a:hover{
   width:160px;
@@ -67,7 +66,6 @@ a{text-decoration: none}
   display: block;
   width:160px;
   line-height: 30px;
-  font-family: '微软雅黑';
   margin-bottom:15px;
 }
 .left_list>li>div>p>a:hover{

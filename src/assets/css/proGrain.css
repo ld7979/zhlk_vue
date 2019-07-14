@@ -1,0 +1,84 @@
+.clearfix{
+  clear: both;
+}
+.clearfix:after{
+  content:"";
+  display: block;
+  clear: both;
+}
+/* 主页面 */
+.prog{
+  width:1650px;
+  height:940px;
+  background-image: url(../bg-img/bg_main2.png);
+  float: left;
+  margin-top:30px;
+}
+/* 左边 */
+.prog_left{
+  width:300px;
+  margin:95px 0 0 130px;
+  float: left;
+}
+.pleft_top>p,.pleft_bottom>p{
+  width:300px;
+  height:45px;
+  line-height: 45px;
+  font-size: 24px;
+  color:#00e4ff;
+  font-weight: bold;
+  text-align: center;
+  background-image: url(../bg-img/bg_charts.png)
+}
+.pt_wheat{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.pt_wheat>div>p>img{
+  height:60px;
+}
+.pt_wheat>div>p:nth-child(2){
+  font-size:30px;
+  font-weight: bold;
+  color:#53fe98;
+}
+.pt_wheat>div>p:nth-child(3){
+  font-size:12px;
+  color:#fff;
+  width:80px;
+  background: #225953;
+  line-height: 20px;
+}
+.pleft_bottom{
+  margin-top:60px;
+}
+/* 中间地图 */
+.prog_map{
+  width:440px;
+  height:825px;
+  background-image: url(../bg-img/map.png);
+  float: left;
+  margin:60px 0 0 120px;
+}
+/* 右边 */
+.prog_right{
+  float: right;
+  width:285px;
+  height: 750px;
+  border: 1px solid #11779d;
+  margin:95px 130px 0 0 ;
+  background: rgba(17,119,157,0.2)
+}
+.count{
+  width:285px;
+  height:60px;
+  line-height: 60px;
+  text-align: center;
+  background: linear-gradient(to right, rgba(17,119,157,0.8) 0%, rgba(19,71,117,0.4) 100%);
+}
+.count>p{
+  color:#fff;
+  font-size:20px;
+  font-weight: bold;
+}
